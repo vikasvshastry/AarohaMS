@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView"
+        android:layout_below="@+id/container_toolbar"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <android.support.v7.widget.CardView
+            android:id="@+id/notifications_card"
+            android:layout_width="210dp"
+            android:layout_height="360dp"
+            android:layout_marginStart="5dp"
+            android:elevation="15dp"
+            app:cardCornerRadius="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="360dp"
+                    android:background="@drawable/redback"/>
+
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="360dp"
+                    android:background="@color/colorPrimary"
+                    android:alpha="0.4"/>
+
+                <TextView
+                    android:id="@+id/notifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Notifications"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="10dp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_margin="20dp"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/notif"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="150dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Check here frequently for updates on timings, schedules and meetings."
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:padding="30dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="13sp"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+            
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/shruthi_card"
+            android:layout_width="210dp"
+            android:layout_height="360dp"
+            android:layout_marginStart="5dp"
+            android:elevation="15dp"
+            app:cardCornerRadius="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="360dp"
+                    android:background="@drawable/greenback"/>
+
+                <View
+                    android:layout_width="210dp"
+                    android:layout_height="360dp"
+                    android:background="#2D7A58"
+                    android:alpha="0.4"/>
+
+                <TextView
+                    android:id="@+id/shruthi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shruthi"
+                    android:gravity="center_horizontal"
+                    android:textColor="#ffffff"
+                    android:paddingTop="10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_margin="20dp"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/shruthibox"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="150dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Practice better by singing along with various drone backgrounds."
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:padding="30dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="13sp"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/notes_card"
+            android:layout_width="210dp"
+            android:layout_height="360dp"
+            android:layout_marginStart="5dp"
+            android:elevation="15dp"
+            app:cardCornerRadius="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="360dp"
+                    android:background="@drawable/blueback"/>
+
+                <View
+                    android:layout_width="210dp"
+                    android:layout_height="360dp"
+                    android:background="#236475"
+                    android:alpha="0.4"/>
+
+                <TextView
+                    android:id="@+id/notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Notes"
+                    android:paddingTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_margin="20dp"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/notes"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="150dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Find all the notes you need right here."
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:padding="30dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="13sp"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/noticeboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/horizontalScrollView"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="#DDB210"
+        android:text="This part will contain latest notifications . You can go to the notifications window to view all notifications"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/horizontalScrollView"
+        android:layout_marginTop="7dp"
+        android:layout_alignEnd="@id/noticeboard"
+        android:background="@drawable/uclip"
+        android:rotation="-40"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/noticeboard"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/about_back">
+
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:paddingTop="20dp"
+            android:fontFamily="sans-serif-light"
+            android:background="#cc820333"/>
+
+        <TextView
+            android:id="@+id/highlights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aaroha was started in the year 2014 by Punyashree Venkataram with the intent to educate all children willing to learn music.\n'Music is not a gift, it is a skill. It is meant to be understood and anybody can learn music'."
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:layout_below="@+id/head"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:background="#cc820333"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/courseContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Vision"
+            android:layout_below="@+id/highlights"
+            android:background="#cc820333"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To make every child reap the benefits of music, create a sense of awareness that music is beyond just the form that they are trained in and help them appreciate the value of it."
+            android:layout_below="@+id/courseContent"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:background="#cc820333"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#ffffff"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+</ScrollView>

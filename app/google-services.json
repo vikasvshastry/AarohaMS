@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "752181805647",
+    "firebase_url": "https://aaroha-50e98.firebaseio.com",
+    "project_id": "aaroha-50e98",
+    "storage_bucket": "aaroha-50e98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752181805647:android:6c9b351c1b16d9c0",
+        "android_client_info": {
+          "package_name": "com.aaroha.aaroha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752181805647-hss8gfrmntsm754efdjt8tfd72ca9g8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aaroha.aaroha",
+            "certificate_hash": "8d2962d4a09666d619890933c3377183813b9105"
+          }
+        },
+        {
+          "client_id": "752181805647-e5nk00jsdtjodpg47rlk3837j655eouu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg9b34YbCvK18GXMFPJC5ZrYdrbrKJ0Tg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752181805647-e5nk00jsdtjodpg47rlk3837j655eouu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
