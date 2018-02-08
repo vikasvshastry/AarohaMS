@@ -33,7 +33,8 @@
         <activity
             android:name=".FrameActivity"
             android:label="@string/title_activity_frame"
-            android:theme="@style/MyMaterialTheme"></activity>
+            android:theme="@style/MyMaterialTheme"/>
+        <activity android:name=".NewNotificationActivity" />
     </application>
 
 </manifest>
